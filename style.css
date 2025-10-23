@@ -1,0 +1,78 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom styles for the flashcard flip */
+.flashcard {
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.flashcard.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.flashcard-face {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.flashcard-back {
+    transform: rotateY(180deg);
+    /* ADD THESE TWO LINES TO FIX THE MIRRORED TEXT */
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/* Style for scrollable word list */
+#word-list-container {
+    max-height: 40rem; /* 640px */
+    overflow-y: auto;
+    -webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
+}
+
+/* Styles for the new details modal */
+#details-modal {
+    transition: opacity 0.3s ease-in-out;
+}
+
+#details-modal-content {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* (NEW) Make the new modal details container scrollable */
+#modal-details-container {
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 0.5rem; /* For the scrollbar */
+}
+
+/* --- NEW: Beautiful Scrollbar Styles --- */
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a0aec0 #edf2f7; /* thumb and track */
+}
+
+/* For Chrome, Edge, Safari, and other WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #edf2f7; /* Light gray track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a0aec0; /* Medium gray thumb */
+  border-radius: 10px;
+  border: 2px solid #edf2f7; /* Padding around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #718096; /* Darker on hover */
+}
