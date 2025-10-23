@@ -110,33 +110,12 @@ document.addEventListener('DOMContentLoaded', () => {
         return array;
     }
 
-    /**
-     * Loads and stores the Australian English voice for TTS.
-     */
-    function loadAussieVoice() {
-        if (!('speechSynthesis' in window)) {
-            console.warn("Speech Synthesis not supported by this browser.");
-            return;
-        }
-
-        const setVoice = () => {
-            const voices = window.speechSynthesis.getVoices();
-            aussieVoice = voices.find(voice => voice.lang === 'en-AU');
-            
-            if (!aussieVoice) {
-                aussieVoice = voices.find(voice => voice.lang.startsWith('en-AU') || voice.lang.startsWith('en-GB') || voice.lang.startsWith('en-US') || voice.lang.startsWith('en-'));
-            }
-        };
-
-        setVoice();
-        if (window.speechSynthesis.onvoiceschanged !== undefined) {
-            window.speechSynthesis.onvoiceschanged = setVoice;
-        }
-    }
-
+    // --- (REMOVED) loadAussieVoice() function ---
+    // The old function was removed to fix the Android audio issue.
 
     /**
      * Plays audio for a given word using the built-in Web Speech API.
+     * (REPLACED for improved mobile/Android compatibility)
      */
     function playWord(text) {
         if (!('speechSynthesis' in window)) {
@@ -144,24 +123,76 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        window.speechSynthesis.cancel();
+        window.speechSynthesis.cancel(); // Stop any previous speech
         const utterance = new SpeechSynthesisUtterance(text);
         
+        utterance.lang = 'en-AU'; // Set language as a fallback
+        utterance.rate = 0.9;     
+
+        // --- Robust Voice Finding ---
+        
+        // 1. Check if we already found and stored the voice
         if (aussieVoice) {
             utterance.voice = aussieVoice;
-        } else {
-            const voices = window.speechSynthesis.getVoices();
-            aussieVoice = voices.find(voice => voice.lang === 'en-AU');
-            if (!aussieVoice) {
-                aussieVoice = voices.find(voice => voice.lang.startsWith('en-AU') || voice.lang.startsWith('en-GB') || voice.lang.startsWith('en-US'));
+            window.speechSynthesis.speak(utterance);
+            return;
+        }
+
+        // 2. If not, get the list of voices *now*.
+        // This is more reliable inside a click handler than at startup.
+        const voices = window.speechSynthesis.getVoices();
+
+        if (voices.length > 0) {
+            // 3. Voices are available. Find the best match.
+            let foundVoice = voices.find(voice => voice.lang === 'en-AU'); // Exact
+            
+            if (!foundVoice) {
+                // Broader Australian search
+                foundVoice = voices.find(voice => 
+                    voice.lang.startsWith('en-AU') || 
+                    voice.name.toLowerCase().includes('australia')
+                );
             }
-            if(aussieVoice) {
-                 utterance.voice = aussieVoice;
+            if (!foundVoice) {
+                // Fallback to UK English (often available)
+                foundVoice = voices.find(voice => voice.lang === 'en-GB' || voice.lang.startsWith('en-GB'));
             }
+            if (!foundVoice) {
+                 // Fallback to US English
+                foundVoice = voices.find(voice => voice.lang === 'en-US' || voice.lang.startsWith('en-US'));
+            }
+            if (!foundVoice) {
+                // Last resort: any default English
+                foundVoice = voices.find(voice => voice.lang.startsWith('en-') && voice.default);
+            }
+
+            if (foundVoice) {
+                aussieVoice = foundVoice; // Store it globally for next time
+                utterance.voice = aussieVoice;
+            }
+            // If no voice found, we'll just use the 'en-AU' lang fallback
+        } 
+        
+        // 4. If voices.length is 0 (common on first click on Android):
+        // We speak *without* setting .voice. The browser will use the .lang property.
+        // This "wakes up" the synthesis engine.
+        // We also set a listener so that 'aussieVoice' is populated for the *next* click.
+        else if (window.speechSynthesis.onvoiceschanged !== undefined) {
+            window.speechSynthesis.onvoiceschanged = () => {
+                const updatedVoices = window.speechSynthesis.getVoices();
+                let foundVoice = updatedVoices.find(voice => voice.lang === 'en-AU');
+                if (!foundVoice) {
+                     foundVoice = updatedVoices.find(voice => 
+                        voice.lang.startsWith('en-AU') || 
+                        voice.name.toLowerCase().includes('australia') ||
+                        voice.lang === 'en-GB'
+                    );
+                }
+                aussieVoice = foundVoice; // Store it for the future
+            };
         }
         
-        utterance.lang = 'en-AU'; 
-        utterance.rate = 0.9;     
+        // 5. Speak the utterance
         window.speechSynthesis.speak(utterance);
     }
 
@@ -697,7 +728,7 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     function initializeApp() {
         // Run all the original setup code
-        loadAussieVoice(); 
+        // (REMOVED) loadAussieVoice(); 
         renderTopicButtons();
         currentTopicTitle.textContent = currentTopic; 
         renderWordList(true); 
@@ -737,7 +768,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // (OLD Init code is now in initializeApp())
-    // loadAussieVoice(); 
     // renderTopicButtons();
     // currentTopicTitle.textContent = currentTopic; 
     // renderWordList(true); 
