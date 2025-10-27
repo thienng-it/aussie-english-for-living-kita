@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- App State ---
     let currentTopic = "Introduction"; // Default topic
     let aussieVoice = null; // To store the Aussie voice
+    let voiceLoaderPromise = null; // to manage loading voices
 
     // Word List Pagination state
     const wordsPerLoad = 20;
@@ -114,20 +115,100 @@ document.addEventListener('DOMContentLoaded', () => {
     // The old function was removed to fix the Android audio issue.
 
     /**
+     * (NEW) Helper function to find the best-matching voice
+     * (This logic is extracted from the old playWord function)
+     */
+    function findBestVoice() {
+        const voices = window.speechSynthesis.getVoices();
+        if (voices.length === 0) return null;
+
+        let foundVoice = voices.find(voice => voice.lang === 'en-AU'); // Exact
+        
+        if (!foundVoice) {
+            // Broader Australian search
+            foundVoice = voices.find(voice => 
+                voice.lang.startsWith('en-AU') || 
+                voice.name.toLowerCase().includes('australia')
+            );
+        }
+        if (!foundVoice) {
+            // Fallback to UK English (often available)
+            foundVoice = voices.find(voice => voice.lang === 'en-GB' || voice.lang.startsWith('en-GB'));
+        }
+        if (!foundVoice) {
+             // Fallback to US English
+            foundVoice = voices.find(voice => voice.lang === 'en-US' || voice.lang.startsWith('en-US'));
+        }
+        if (!foundVoice) {
+            // Last resort: any default English
+            foundVoice = voices.find(voice => voice.lang.startsWith('en-') && voice.default);
+        }
+        
+        aussieVoice = foundVoice; // Cache it globally
+        return aussieVoice;
+    }
+
+    /**
+     * (NEW) Returns a promise that resolves when voices are loaded.
+     * This fixes the Android WebView "lazy loading" issue.
+     */
+    function ensureVoicesLoaded() {
+        // If loading is already in progress, return the existing promise
+        if (voiceLoaderPromise) {
+            return voiceLoaderPromise;
+        }
+
+        voiceLoaderPromise = new Promise((resolve) => {
+            // Case 1: Voices are already cached
+            if (aussieVoice) {
+                return resolve(aussieVoice);
+            }
+
+            // Case 2: Voices are loaded now
+            const voices = window.speechSynthesis.getVoices();
+            if (voices.length > 0) {
+                return resolve(findBestVoice());
+            }
+
+            // Case 3: We must wait for the event (The Android/Messenger problem)
+            if (window.speechSynthesis.onvoiceschanged !== undefined) {
+                window.speechSynthesis.onvoiceschanged = () => {
+                    resolve(findBestVoice());
+                };
+            } else {
+                // Fallback for very old browsers
+                resolve(null);
+            }
+        });
+        
+        return voiceLoaderPromise;
+    }
+
+    /**
      * Plays audio for a given word using the built-in Web Speech API.
      * (REPLACED for improved mobile/Android compatibility)
      */
-    function playWord(text) {
+    async function playWord(text) {
         if (!('speechSynthesis' in window)) {
             console.error("Sorry, your browser doesn't support text-to-speech.");
             return;
         }
 
         window.speechSynthesis.cancel(); // Stop any previous speech
+
+        // --- (NEW) Wait for voices to be loaded ---
+        // This will either resolve immediately (if cached)
+        // or wait for onvoiceschanged (if on Android WebView)
+        const voiceToUse = await ensureVoicesLoaded();
+
         const utterance = new SpeechSynthesisUtterance(text);
         
         utterance.lang = 'en-AU'; // Set language as a fallback
-        utterance.rate = 0.9;     
+        utterance.rate = 0.9;
+        
+        if (voiceToUse) {
+            utterance.voice = voiceToUse;
+        }
 
         // --- Robust Voice Finding ---
         
