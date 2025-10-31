@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const passcodeError = document.getElementById('passcode-error');
     const passcodeTntput = document.getElementById('passcode-input'); // Corrected typo
     const appContainer = document.getElementById('app-container');
+    const levelButtonsContainer = document.getElementById('level-buttons');
 
     // --- (EXISTING) DOM Elements ---
     const topicButtonsContainer = document.getElementById('topic-buttons');
@@ -75,7 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // --- App State ---
-    let currentTopic = "Introduction"; // Default topic
+    let currentLevel = null;
+    let currentTopic = null; // Will be set after level is chosen
     let aussieVoice = null; // To store the Aussie voice
     let voiceLoaderPromise = null; // to manage loading voices
 
@@ -284,11 +286,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderWordList(reset = false) {
         if (reset) {
             wordListContainer.innerHTML = ''; // Clear existing list
-            const words = allTopics[currentTopic];
-            if (!words) {
-                console.error(`No words found for topic: ${currentTopic}`);
-                return;
+            
+            if (!currentTopic || !allTopics[currentTopic]) {
+                 console.error(`No words found for topic: ${currentTopic}`);
+                 return;
             }
+            const words = allTopics[currentTopic];
+
             currentWordEntries = Object.entries(words); // Store all entries
             currentWordsLoaded = 0;
             isLoadingMore = false; // NEW: Reset loading flag
@@ -336,16 +340,30 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     /**
-     * Renders the topic buttons at the top of the page.
+     * (REPLACED) Renders the topic buttons for the *currently selected level*.
      */
     function renderTopicButtons() {
         topicButtonsContainer.innerHTML = ''; // Clear old buttons
-        const fragment = document.createDocumentFragment();
-        if (typeof allTopics === 'undefined') {
-            console.error("allTopics data is not loaded. Check if data.js is included correctly.");
+        mainContent.classList.add('hidden'); // Hide main content until ready
+
+        if (!currentLevel || !levels[currentLevel]) {
+            console.error("No level selected or level has no topics.");
             return;
         }
-        for (const topicName of Object.keys(allTopics)) {
+
+        const fragment = document.createDocumentFragment();
+        const topicsForLevel = levels[currentLevel];
+
+        // Get the first topic of this level to be the new default
+        currentTopic = topicsForLevel[0]; 
+        
+        for (const topicName of topicsForLevel) {
+            // Safety check: ensure this topic exists in our master allTopics list
+            if (!allTopics[topicName]) {
+                console.warn(`Topic "${topicName}" defined in levels but not found in allTopics.`);
+                continue; 
+            }
+
             const button = document.createElement('button');
             button.dataset.topic = topicName;
             button.textContent = topicName;
@@ -357,6 +375,14 @@ document.addEventListener('DOMContentLoaded', () => {
             fragment.appendChild(button);
         }
         topicButtonsContainer.appendChild(fragment);
+
+        // Now that a level and topic are selected, render the list and controls
+        currentTopicTitle.textContent = currentTopic;
+        renderWordList(true); 
+        renderControls();
+
+        // And show the main content area
+        mainContent.classList.remove('hidden');
     }
     
     /**
@@ -380,6 +406,53 @@ document.addEventListener('DOMContentLoaded', () => {
         
         document.getElementById('start-quiz-btn').addEventListener('click', startQuiz);
         document.getElementById('start-flashcards-btn').addEventListener('click', startFlashcards);
+    }
+
+    /**
+     * (NEW) Renders the main level selection buttons.
+     */
+    function renderLevelButtons() {
+        levelButtonsContainer.innerHTML = ''; // Clear old buttons
+        const fragment = document.createDocumentFragment();
+        
+        // Use the new 'levels' object from data.js
+        if (typeof levels === 'undefined') {
+            console.error("levels data is not loaded. Check if data.js is included correctly.");
+            return;
+        }
+        for (const levelName of Object.keys(levels)) {
+            const button = document.createElement('button');
+            button.dataset.level = levelName;
+            button.textContent = levelName;
+            // Added some extra styling for the main level buttons
+            button.className = `level-btn px-6 py-3 rounded-lg font-bold text-lg shadow-lg transition-all 
+                bg-indigo-600 text-white hover:bg-indigo-700 hover:scale-105`;
+            fragment.appendChild(button);
+        }
+        levelButtonsContainer.appendChild(fragment);
+    }
+
+    /**
+     * (NEW) Handles clicks on the level buttons.
+     */
+    function handleLevelClick(e) {
+        const button = e.target.closest('.level-btn');
+        if (!button) return;
+
+        currentLevel = button.dataset.level;
+        
+        // Highlight selected level button
+        document.querySelectorAll('.level-btn').forEach(btn => {
+            if (btn.dataset.level === currentLevel) {
+                btn.className = 'level-btn px-6 py-3 rounded-lg font-bold text-lg shadow-lg transition-all bg-blue-800 text-white scale-110';
+            } else {
+                btn.className = 'level-btn px-6 py-3 rounded-lg font-bold text-lg shadow-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 hover:scale-105';
+            }
+        });
+        
+        // Render the topics for the selected level
+        renderTopicButtons(); 
+        showView('list');
     }
 
     /**
@@ -544,6 +617,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function startQuiz() {
         document.getElementById('notification-bar').textContent = '';
+        
+        if (!currentTopic || !allTopics[currentTopic]) {
+             document.getElementById('notification-bar').textContent = "Please select a topic first.";
+             return;
+        }
         const words = allTopics[currentTopic];
         const entries = Object.entries(words);
         
@@ -678,6 +756,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function startFlashcards() {
         document.getElementById('notification-bar').textContent = '';
+        
+        if (!currentTopic || !allTopics[currentTopic]) {
+             document.getElementById('notification-bar').textContent = "Please select a topic first.";
+             return;
+        }
         const words = allTopics[currentTopic];
         const entries = Object.entries(words);
         
@@ -769,6 +852,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // --- Event Listeners ---
+    levelButtonsContainer.addEventListener('click', handleLevelClick); // NEW
     topicButtonsContainer.addEventListener('click', handleTopicClick);
     wordListContainer.addEventListener('click', handleListClick);
     // NEW: Added scroll listener for infinite scroll
@@ -777,11 +861,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // loadMoreBtn.addEventListener('click', () => renderWordList(false)); 
     
     // Quiz listeners
-    quizBackBtn.addEventListener('click', () => showView('list'));
+    quizBackBtn.addEventListener('click', () => {
+        showView('list');
+        mainContent.classList.remove('hidden'); // Ensure main view is visible
+    });
     quizRestartBtn.addEventListener('click', startQuiz);
     
     // Flashcard listeners
-    flashcardBackBtn.addEventListener('click', () => showView('list'));
+    flashcardBackBtn.addEventListener('click', () => {
+        showView('list');
+        mainContent.classList.remove('hidden'); // Ensure main view is visible
+    });
     flashcard.addEventListener('click', flipFlashcard);
     flashcardPrevBtn.addEventListener('click', prevFlashcard);
     flashcardNextBtn.addEventListener('click', nextFlashcard);
@@ -808,12 +898,17 @@ document.addEventListener('DOMContentLoaded', () => {
      * Runs all the setup functions after passcode is entered.
      */
     function initializeApp() {
-        // Run all the original setup code
         // (REMOVED) loadAussieVoice(); 
-        renderTopicButtons();
-        currentTopicTitle.textContent = currentTopic; 
-        renderWordList(true); 
-        renderControls();
+        
+        // NEW: Render level buttons first.
+        // The topic buttons and word list will be rendered AFTER a level is clicked.
+        renderLevelButtons();
+        
+        // (MOVED to renderTopicButtons)
+        // renderTopicButtons();
+        // currentTopicTitle.textContent = currentTopic; 
+        // renderWordList(true); 
+        // renderControls();
         
         // Show the main app
         appContainer.classList.remove('hidden');

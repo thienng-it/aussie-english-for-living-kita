@@ -1,3 +1,29 @@
+const levels = {
+    "Beginner Level": [
+        "Chapter I: Hello!",
+        "Chapter II: My Home",
+        "Chapter III: My Stuff",
+        "Chapter IV: Habits",
+        "Chapter V: Inside or Outside?",
+        "Chapter VI: Food Around the World",
+        "Chapter VII: Family and Friends",
+        "Chapter VIII: Things We Can Do",
+        "Chapter IX: Travel",
+        "Chapter X: Staying Healthy",
+        "Chapter XI: People from the Past",
+        "Chapter XII: My Story"
+    ],
+    "Pre-Intermediate Level": [
+        "Introduction", 
+        "Australian Meat", 
+        "Bank", 
+        "Food", 
+        "Travelling", 
+        "Shopping", 
+        "Aussie Slang"
+    ]
+};
+
 const allTopics = {
     "Introduction": {
         "G'day": {
@@ -3733,6 +3759,2886 @@ const allTopics = {
                     "viet": "Thùng giữ lạnh (để đựng đồ ăn, thức uống)",
                     "definition": "A brand name for a portable insulated container. Used generically in Australia. (Called a 'cooler' in US English).",
                     "synonyms": ["cooler", "cool box", "chilly bin (NZ)"],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter I: Hello!": {
+        "Argentina": {
+            "phonetic": "/ˌɑːrdʒənˈtiːnə/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Ác-hen-ti-na",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Brazilian": {
+            "phonetic": "/brəˈzɪliən/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Người Bra-xin",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "China": {
+            "phonetic": "/ˈtʃaɪnə/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Trung Quốc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "France": {
+            "phonetic": "/fræns/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Pháp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "French": {
+            "phonetic": "/frentʃ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Người Pháp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Germany": {
+            "phonetic": "/ˈdʒɜːrməni/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Đức",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Japan": {
+            "phonetic": "/dʒəˈpæn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Nhật Bản",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "The UK": {
+            "phonetic": "/ðə ˌjuːˈkeɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Vương quốc Anh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "The US": {
+            "phonetic": "/ðə ˌjuːˈes/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Mỹ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "American": {
+            "phonetic": "/əˈmerɪkən/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Người Mỹ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Peru": {
+            "phonetic": "/pəˈruː/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Pê-ru",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Morocco": {
+            "phonetic": "/məˈrɑːkoʊ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Ma-rốc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Turkey": {
+            "phonetic": "/ˈtɜːrki/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Thổ Nhĩ Kỳ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Vietnam": {
+            "phonetic": "/ˌvjɛtˈnɑːm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Nước Việt Nam",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Vietnamese": {
+            "phonetic": "/ˌvjɛtnəˈmiːz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Người Việt Nam",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "zero": {
+            "phonetic": "/ˈzɪroʊ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số không",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "one": {
+            "phonetic": "/wʌn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số một",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "two": {
+            "phonetic": "/tuː/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số hai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "three": {
+            "phonetic": "/θriː/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số ba",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "eight": {
+            "phonetic": "/eɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số tám",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "nine": {
+            "phonetic": "/naɪn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số chín",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "ten": {
+            "phonetic": "/ten/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số mười",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "actor": {
+            "phonetic": "/ˈæktər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "diễn viên (nam/nữ)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pilot": {
+            "phonetic": "/ˈpaɪlət/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "phi công",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "teacher": {
+            "phonetic": "/ˈtiːtʃər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "giáo viên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "doctor": {
+            "phonetic": "/ˈdɑːktər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bác sĩ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "scientist": {
+            "phonetic": "/ˈsaɪəntɪst/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nhà khoa học",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "writer": {
+            "phonetic": "/ˈraɪtər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"nhà văn, tác giả\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "student": {
+            "phonetic": "/ˈstuːdənt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"học sinh, sinh viên\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter II: My Home": {
+        "kitchen": {
+            "phonetic": "/ˈkɪtʃɪn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nhà bếp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "dining room": {
+            "phonetic": "/ˈdaɪnɪŋ ruːm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "phòng ăn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bathroom": {
+            "phonetic": "/ˈbæθruːm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "phòng tắm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "living room": {
+            "phonetic": "/ˈlɪvɪŋ ruːm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "phòng khách",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bedroom": {
+            "phonetic": "/ˈbedruːm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "phòng ngủ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "park": {
+            "phonetic": "/pɑːrk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "công viên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "school": {
+            "phonetic": "/skuːl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "trường học",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "train station": {
+            "phonetic": "/treɪn ˈsteɪʃən/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ga tàu hỏa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "library": {
+            "phonetic": "/ˈlaɪbreri/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "thư viện",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "shopping centre": {
+            "phonetic": "/ˈʃɑːpɪŋ ˈsentər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "trung tâm mua sắm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "museum": {
+            "phonetic": "/mjuˈziːəm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "viện bảo tàng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bus station": {
+            "phonetic": "/bʌs ˈsteɪʃən/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bến xe buýt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "restaurant": {
+            "phonetic": "/ˈrestərɑːnt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nhà hàng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "supermarket": {
+            "phonetic": "/ˈsuːpərmɑːrkɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "siêu thị",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cinema": {
+            "phonetic": "/ˈsɪnəmə/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "rạp chiếu phim",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "in": {
+            "phonetic": "/ɪn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ở trong",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "on": {
+            "phonetic": "/ɑːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ở trên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "next to": {
+            "phonetic": "/nekst tu/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ở cạnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "under": {
+            "phonetic": "/ˈʌndər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ở dưới",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter III: My Stuff": {
+        "phone": {
+            "phonetic": "/foʊn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "điện thoại",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "book": {
+            "phonetic": "/bʊk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "sách",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bag": {
+            "phonetic": "/bæɡ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"túi, cặp\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "camera": {
+            "phonetic": "/ˈkæmərə/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "máy ảnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "toothbrush": {
+            "phonetic": "/ˈtuːθbrʌʃ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bàn chải đánh răng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "water bottle": {
+            "phonetic": "/ˈwɔːtər ˈbɑːtəl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "chai nước",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bank cards": {
+            "phonetic": "/bæŋk kɑːrdz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "thẻ ngân hàng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "keys": {
+            "phonetic": "/kiːz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "chìa khóa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "T-shirt": {
+            "phonetic": "/ˈtiː ʃɜːrt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "áo phông",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "notepad": {
+            "phonetic": "/ˈnoʊtpæd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "sổ tay",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "dress": {
+            "phonetic": "/dres/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"váy, đầm\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "passport": {
+            "phonetic": "/ˈpæspɔːrt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "hộ chiếu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "black": {
+            "phonetic": "/blæk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "màu đen",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "blue": {
+            "phonetic": "/bluː/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "màu xanh da trời",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "green": {
+            "phonetic": "/ɡriːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "màu xanh lá cây",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "orange": {
+            "phonetic": "/ˈɔːrɪndʒ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "màu cam",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "purple": {
+            "phonetic": "/ˈpɜːrpəl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "màu tím",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pink": {
+            "phonetic": "/pɪŋk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "màu hồng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "red": {
+            "phonetic": "/red/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "màu đỏ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "white": {
+            "phonetic": "/waɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "màu trắng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "yellow": {
+            "phonetic": "/ˈjeloʊ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "màu vàng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter IV: Habits": {
+        "eleven": {
+            "phonetic": "/ɪˈlevən/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mười một",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "twelve": {
+            "phonetic": "/twelv/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mười hai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "thirteen": {
+            "phonetic": "/ˌθɜːrˈtiːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mười ba",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "twenty": {
+            "phonetic": "/ˈtwenti/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "hai mươi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fifty": {
+            "phonetic": "/ˈfɪfti/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "năm mươi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "one hundred": {
+            "phonetic": "/wʌn ˈhʌndrəd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "một trăm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Monday": {
+            "phonetic": "/ˈmʌndeɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Thứ Hai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Tuesday": {
+            "phonetic": "/ˈtuːzdeɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Thứ Ba",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Wednesday": {
+            "phonetic": "/ˈwenzdeɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Thứ Tư",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Thursday": {
+            "phonetic": "/ˈθɜːrzdeɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Thứ Năm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Friday": {
+            "phonetic": "/ˈfraɪdeɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Thứ Sáu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Saturday": {
+            "phonetic": "/ˈsætərdeɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Thứ Bảy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "Sunday": {
+            "phonetic": "/ˈsʌndeɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Chủ Nhật",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "go to bed": {
+            "phonetic": "/ɡoʊ tu bed/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đi ngủ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wake up": {
+            "phonetic": "/weɪk ʌp/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "thức dậy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "finish work": {
+            "phonetic": "/ˈfɪnɪʃ wɜːrk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tan làm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "start work": {
+            "phonetic": "/stɑːrt wɜːrk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bắt đầu làm việc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "take a bus": {
+            "phonetic": "/teɪk ə bʌs/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bắt xe buýt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wait": {
+            "phonetic": "/weɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đợi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "walk": {
+            "phonetic": "/wɔːk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đi bộ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "get home": {
+            "phonetic": "/ɡet hoʊm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "về nhà",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter V: Inside or Outside?": {
+        "read a book": {
+            "phonetic": "/riːd ə bʊk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đọc sách",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "watch TV": {
+            "phonetic": "/wɑːtʃ ˌtiːˈviː/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "xem TV",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "listen to music": {
+            "phonetic": "/ˈlɪsən tu ˈmjuːzɪk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nghe nhạc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "draw a picture": {
+            "phonetic": "/drɔː ə ˈpɪktʃər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "vẽ một bức tranh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "camping": {
+            "phonetic": "/ˈkæmpɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "cắm trại",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "climbing": {
+            "phonetic": "/ˈklaɪmɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"leo (núi, tường)\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cycling": {
+            "phonetic": "/ˈsaɪklɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đạp xe",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "doing yoga": {
+            "phonetic": "/ˈduːɪŋ ˈjoʊɡə/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tập yoga",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "running": {
+            "phonetic": "/ˈrʌnɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "chạy bộ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "playing football": {
+            "phonetic": "/ˈpleɪɪŋ ˈfʊtbɔːl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "chơi bóng đá",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "swimming": {
+            "phonetic": "/ˈswɪmɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bơi lội",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "March": {
+            "phonetic": "/mɑːrtʃ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Ba",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "June": {
+            "phonetic": "/dʒuːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Sáu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "September": {
+            "phonetic": "/sepˈtembər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Chín",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "December": {
+            "phonetic": "/dɪˈsembər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Mười Hai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "spring": {
+            "phonetic": "/sprɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mùa xuân",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "summer": {
+            "phonetic": "/ˈsʌmər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mùa hè (mùa hạ)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "autumn": {
+            "phonetic": "/ˈɔːtəm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mùa thu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "winter": {
+            "phonetic": "/ˈwɪntər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mùa đông",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "in the afternoon": {
+            "phonetic": "/ɪn ði ˌæftərˈnuːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "vào buổi chiều",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "in the evening": {
+            "phonetic": "/ɪn ði ˈiːvnɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "vào buổi tối",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter VI: Food Around the World": {
+        "bread": {
+            "phonetic": "/bred/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bánh mì",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cheese": {
+            "phonetic": "/tʃiːz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "phô mai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "eggs": {
+            "phonetic": "/eɡz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "trứng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fruit": {
+            "phonetic": "/fruːt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "trái cây",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "meat": {
+            "phonetic": "/miːt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "thịt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "milk": {
+            "phonetic": "/mɪlk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "sữa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "noodles": {
+            "phonetic": "/ˈnuːdəlz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mì",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "rice": {
+            "phonetic": "/raɪs/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "cơm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "vegetables": {
+            "phonetic": "/ˈvedʒtəbəlz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "rau củ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "coffee": {
+            "phonetic": "/ˈkɔːfi/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "cà phê",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fish": {
+            "phonetic": "/fɪʃ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "cá",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "chilli": {
+            "phonetic": "/ˈtʃɪli/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ớt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "onions": {
+            "phonetic": "/ˈʌnjənz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "hành tây",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "garlic": {
+            "phonetic": "/ˈɡɑːrlɪk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tỏi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "peanuts": {
+            "phonetic": "/ˈpiːnʌts/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đậu phộng (lạc)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sugar": {
+            "phonetic": "/ˈʃʊɡər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đường",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fish sauce": {
+            "phonetic": "/fɪʃ sɔːs/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nước mắm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "spicy": {
+            "phonetic": "/ˈspaɪsi/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "cay",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "how many": {
+            "phonetic": "/haʊ ˈmeni/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bao nhiêu (danh từ đếm được)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "how much": {
+            "phonetic": "/haʊ mʌtʃ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bao nhiêu (danh từ không đếm được)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "a little": {
+            "phonetic": "/ə ˈlɪtəl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "một ít",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "a lot of": {
+            "phonetic": "/ə lɑːt əv/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nhiều",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "market": {
+            "phonetic": "/ˈmɑːrkɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "chợ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "supermarket": {
+            "phonetic": "/ˈsuːpərmɑːrkɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "siêu thị",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter VII: Family and Friends": {
+        "son": {
+            "phonetic": "/sʌn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "con trai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "daughter": {
+            "phonetic": "/ˈdɔːtər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "con gái",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "mother": {
+            "phonetic": "/ˈmʌðər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mẹ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "father": {
+            "phonetic": "/ˈfɑːðər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bố",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "brother": {
+            "phonetic": "/ˈbrʌðər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "anh/em trai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sister": {
+            "phonetic": "/ˈsɪstər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "chị/em gái",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wife": {
+            "phonetic": "/waɪf/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "vợ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "husband": {
+            "phonetic": "/ˈhʌzbənd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "chồng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "children": {
+            "phonetic": "/ˈtʃɪldrən/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "con cái",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "parents": {
+            "phonetic": "/ˈperənts/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bố mẹ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "grandfather": {
+            "phonetic": "/ˈɡrænfɑːðər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ông",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "grandmother": {
+            "phonetic": "/ˈɡrænmʌðər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bà",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "tall": {
+            "phonetic": "/tɔːl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "cao",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "short": {
+            "phonetic": "/ʃɔːrt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"thấp, lùn\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "dark (hair)": {
+            "phonetic": "/dɑːrk (her)/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"(tóc) sẫm màu, đen\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "clever": {
+            "phonetic": "/ˈklevər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"thông minh, lanh lợi\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "funny": {
+            "phonetic": "/ˈfʌni/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"vui tính, hài hước\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "nice": {
+            "phonetic": "/naɪs/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"tốt bụng, dễ mến\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter VIII: Things We Can Do": {
+        "drive": {
+            "phonetic": "/draɪv/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "lái xe",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "ride a bike": {
+            "phonetic": "/raɪd ə baɪk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đạp xe đạp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "paint a picture": {
+            "phonetic": "/peɪnt ə ˈpɪktʃər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "vẽ một bức tranh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cook": {
+            "phonetic": "/kʊk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nấu ăn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "speak a language": {
+            "phonetic": "/spiːk ə ˈlæŋɡwɪdʒ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nói một ngôn ngữ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "remember": {
+            "phonetic": "/rɪˈmembər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nhớ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "forget": {
+            "phonetic": "/fərˈɡet/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "quên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "can": {
+            "phonetic": "/kæn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "có thể",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "can't": {
+            "phonetic": "/kænt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "không thể",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "and": {
+            "phonetic": "/ænd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "và",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "but": {
+            "phonetic": "/bʌt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nhưng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "because": {
+            "phonetic": "/bɪˈkɔːz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bởi vì",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "or": {
+            "phonetic": "/ɔːr/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "hoặc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "large": {
+            "phonetic": "/lɑːrdʒ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"to, lớn\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "strong": {
+            "phonetic": "/strɔːŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "khỏe",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "tiny": {
+            "phonetic": "/ˈtaɪni/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nhỏ xíu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fast": {
+            "phonetic": "/fæst/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nhanh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "beautiful": {
+            "phonetic": "/ˈbjuːtɪfəl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đẹp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "slow": {
+            "phonetic": "/sloʊ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "chậm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter IX: Travel": {
+        "travel": {
+            "phonetic": "/ˈtrævəl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"du lịch, đi lại\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "plane": {
+            "phonetic": "/pleɪn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "máy bay",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "riding a bike": {
+            "phonetic": "/ˈraɪdɪŋ ə baɪk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đạp xe đạp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "take the bus": {
+            "phonetic": "/teɪk ðə bʌs/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bắt xe buýt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "take the train": {
+            "phonetic": "/teɪk ðə treɪn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bắt tàu hỏa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "weather": {
+            "phonetic": "/ˈweðər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "thời tiết",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sun": {
+            "phonetic": "/sʌn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"mặt trời, nắng\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "windy": {
+            "phonetic": "/ˈwɪndi/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "có gió",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wind": {
+            "phonetic": "/wɪnd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "gió",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "rain": {
+            "phonetic": "/reɪn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mưa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "snow": {
+            "phonetic": "/snoʊ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tuyết",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "warm": {
+            "phonetic": "/wɔːrm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ấm áp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cold": {
+            "phonetic": "/koʊld/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "lạnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "book a room": {
+            "phonetic": "/bʊk ə ruːm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đặt phòng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "night": {
+            "phonetic": "/naɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đêm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter X: Staying Healthy": {
+        "head": {
+            "phonetic": "/hed/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "cái đầu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "eye": {
+            "phonetic": "/aɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "con mắt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "arm": {
+            "phonetic": "/ɑːrm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "cánh tay",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "hand": {
+            "phonetic": "/hænd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bàn tay",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "leg": {
+            "phonetic": "/leɡ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "cái chân",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "foot": {
+            "phonetic": "/fʊt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bàn chân",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "go straight": {
+            "phonetic": "/ɡoʊ streɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đi thẳng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "turn left": {
+            "phonetic": "/tɜːrn left/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "rẽ trái",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "turn right": {
+            "phonetic": "/tɜːrn raɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "rẽ phải",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "near": {
+            "phonetic": "/nɪr/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "gần",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "on": {
+            "phonetic": "/ɑːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "trên (đường)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "swim": {
+            "phonetic": "/swɪm/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bơi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "exercising": {
+            "phonetic": "/ˈeksərsaɪzɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đang tập thể dục",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "healthy": {
+            "phonetic": "/ˈhelθi/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "khỏe mạnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "learning": {
+            "phonetic": "/ˈlɜːrnɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đang học",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "practise": {
+            "phonetic": "/ˈpræktɪs/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "luyện tập",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "preparing for": {
+            "phonetic": "/prɪˈperɪŋ fɔːr/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đang chuẩn bị cho",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter XI: People from the Past": {
+        "(was/were) born": {
+            "phonetic": "/bɔːrn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "được sinh ra",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "lived": {
+            "phonetic": "/lɪvd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã sống",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "famous": {
+            "phonetic": "/ˈfeɪməs/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "nổi tiếng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "painter": {
+            "phonetic": "/ˈpeɪntər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "họa sĩ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "yesterday": {
+            "phonetic": "/ˈjestərdeɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ngày hôm qua",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "last night": {
+            "phonetic": "/læst naɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tối hôm qua",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "last week": {
+            "phonetic": "/læst wiːk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tuần trước",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "last month": {
+            "phonetic": "/læst mʌnθ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tháng trước",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "last year": {
+            "phonetic": "/læst jɪr/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "năm ngoái",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "amazing": {
+            "phonetic": "/əˈmeɪzɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "\"tuyệt vời, đáng kinh ngạc\"",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cheap": {
+            "phonetic": "/tʃiːp/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "rẻ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "awful": {
+            "phonetic": "/ˈɔːfəl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "kinh khủng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "terrible": {
+            "phonetic": "/ˈterəbəl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tồi tệ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        }
+    },
+    "Chapter XII: My Story": {
+        "a child": {
+            "phonetic": "/ə tʃaɪld/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "một đứa trẻ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "a teenager": {
+            "phonetic": "/ə ˈtiːneɪdʒər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "một thiếu niên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "an adult": {
+            "phonetic": "/ən əˈdʌlt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "một người trưởng thành",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sad": {
+            "phonetic": "/sæd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "buồn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "happy": {
+            "phonetic": "/ˈhæpi/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "vui vẻ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "great": {
+            "phonetic": "/ɡreɪt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tuyệt vời",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "terrible": {
+            "phonetic": "/ˈterəbəl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tồi tệ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "happened": {
+            "phonetic": "/ˈhæpənd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã xảy ra",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "had": {
+            "phonetic": "/hæd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã có",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wanted": {
+            "phonetic": "/ˈwɑːntɪd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã muốn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "looked": {
+            "phonetic": "/lʊkt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã nhìn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "told": {
+            "phonetic": "/toʊld/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã nói (với ai)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "felt": {
+            "phonetic": "/felt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã cảm thấy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "said": {
+            "phonetic": "/sed/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã nói",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "lifted": {
+            "phonetic": "/ˈlɪftɪd/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã nâng lên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "slipped": {
+            "phonetic": "/slɪpt/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã trượt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fell": {
+            "phonetic": "/fel/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã ngã",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "laughed": {
+            "phonetic": "/læft/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã cười",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "spoke": {
+            "phonetic": "/spoʊk/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đã nói (ngôn ngữ)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "hiking": {
+            "phonetic": "/ˈhaɪkɪŋ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "đi bộ đường dài",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "hobbies": {
+            "phonetic": "/ˈhɑːbiz/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "sở thích",
+                    "definition": "",
+                    "synonyms": [],
                     "antonyms": []
                 }
             ]
