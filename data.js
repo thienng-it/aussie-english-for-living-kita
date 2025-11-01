@@ -3993,6 +3993,54 @@ const allTopics = {
                 }
             ]
         },
+        "four": {
+            "phonetic": "/fɔːr/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số bốn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "five": {
+            "phonetic": "/faɪv/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số năm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "six": {
+            "phonetic": "/sɪks/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số sáu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "seven": {
+            "phonetic": "/ˈsevən/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "số bảy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
         "eight": {
             "phonetic": "/eɪt/",
             "meanings": [
@@ -4635,6 +4683,78 @@ const allTopics = {
                 }
             ]
         },
+        "fourteen": {
+            "phonetic": "/ˌfɔːrˈtiːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mười bốn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fifteen": {
+            "phonetic": "/ˌfɪfˈtiːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mười lăm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sixteen": {
+            "phonetic": "/ˌsɪkˈstiːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mười sáu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "seventeen": {
+            "phonetic": "/ˌsevənˈtiːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mười bảy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "eighteen": {
+            "phonetic": "/ˌeɪˈtiːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mười tám",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "nineteen": {
+            "phonetic": "/ˌnaɪnˈtiːn/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "mười chín",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
         "twenty": {
             "phonetic": "/ˈtwenti/",
             "meanings": [
@@ -4647,12 +4767,84 @@ const allTopics = {
                 }
             ]
         },
+        "thirty": {
+            "phonetic": "/ˈθɜːrti/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "ba mươi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "forty": {
+            "phonetic": "/ˈfɔːrti/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bốn mươi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
         "fifty": {
             "phonetic": "/ˈfɪfti/",
             "meanings": [
                 {
                     "type": "vocabulary",
                     "viet": "năm mươi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sixty": {
+            "phonetic": "/ˈsɪksti/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "sáu mươi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "seventy": {
+            "phonetic": "/ˈsevənti/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "bảy mươi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "eighty": {
+            "phonetic": "/ˈeɪti/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "tám mươi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "ninety": {
+            "phonetic": "/ˈnaɪnti/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "chín mươi",
                     "definition": "",
                     "synonyms": [],
                     "antonyms": []
