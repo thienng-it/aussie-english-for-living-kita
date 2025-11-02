@@ -5177,12 +5177,60 @@ const allTopics = {
                 }
             ]
         },
+        "January": {
+            "phonetic": "/ˈdʒænjueri/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Một",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "February": {
+            "phonetic": "/ˈfebrueri/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Hai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
         "March": {
             "phonetic": "/mɑːrtʃ/",
             "meanings": [
                 {
                     "type": "vocabulary",
                     "viet": "Tháng Ba",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "April": {
+            "phonetic": "/ˈeɪprəl/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Tư",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "May": {
+            "phonetic": "/meɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Năm",
                     "definition": "",
                     "synonyms": [],
                     "antonyms": []
@@ -5201,12 +5249,60 @@ const allTopics = {
                 }
             ]
         },
+        "July": {
+            "phonetic": "/dʒuˈlaɪ/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Bảy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "August": {
+            "phonetic": "/ˈɔːɡəst/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Tám",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
         "September": {
             "phonetic": "/sepˈtembər/",
             "meanings": [
                 {
                     "type": "vocabulary",
                     "viet": "Tháng Chín",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "October": {
+            "phonetic": "/ɑːkˈtoʊbər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Mười",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "November": {
+            "phonetic": "/noʊˈvembər/",
+            "meanings": [
+                {
+                    "type": "vocabulary",
+                    "viet": "Tháng Mười Một",
                     "definition": "",
                     "synonyms": [],
                     "antonyms": []
