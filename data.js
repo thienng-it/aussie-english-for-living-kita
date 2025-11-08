@@ -224,6 +224,2790 @@ const allTopics = {
                 }
             ]
         },
+        "work": {
+            "phonetic": "/wɜːrk/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Làm việc, hoạt động",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "process": {
+            "phonetic": "/ˈproʊ.ses/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Xử lý, chế biến",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "specialise (or specialize)": {
+            "phonetic": "/ˈspeʃ.ə.laɪz/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Chuyên về, chuyên môn hóa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "produce": {
+            "phonetic": "/prəˈduːs/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Sản xuất, chế tạo",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "refer": {
+            "phonetic": "/rɪˈfɜːr/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Đề cập đến, gọi là",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "manage": {
+            "phonetic": "/ˈmæn.ɪdʒ/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Quản lý, điều hành",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bone": {
+            "phonetic": "/boʊn/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Lọc xương, gỡ xương",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cut": {
+            "phonetic": "/kʌt/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Cắt, xẻ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "package": {
+            "phonetic": "/ˈpæk.ɪdʒ/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Đóng gói, bao gói",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "prepare": {
+            "phonetic": "/prɪˈpeər/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Chuẩn bị",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "mean": {
+            "phonetic": "/miːn/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Có nghĩa là, ý là",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "include": {
+            "phonetic": "/ɪnˈkluːd/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Bao gồm, kể cả",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pack": {
+            "phonetic": "/pæk/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Đóng gói",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "collect": {
+            "phonetic": "/kəˈlekt/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Thu gom, tập hợp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "remove": {
+            "phonetic": "/rɪˈmuːv/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Loại bỏ, dọn đi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "clean": {
+            "phonetic": "/kliːn/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Làm sạch, lau dọn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "slaughter": {
+            "phonetic": "/ˈslɔː.tər/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Giết mổ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "butcher": {
+            "phonetic": "/ˈbʊtʃ.ər/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Xẻ thịt, mổ thịt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "use": {
+            "phonetic": "/juːz/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Sử dụng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "follow": {
+            "phonetic": "/ˈfɑː.loʊ/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Tuân theo, làm theo, theo sau",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "avoid": {
+            "phonetic": "/əˈvɔɪd/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Tránh, né",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "keep": {
+            "phonetic": "/kiːp/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Giữ, duy trì",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "push": {
+            "phonetic": "/pʊʃ/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Đẩy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cope": {
+            "phonetic": "/koʊp/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Đối phó, xoay xở",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "prefer": {
+            "phonetic": "/prɪˈfɜːr/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Thích hơn, ưu tiên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pass": {
+            "phonetic": "/pæs/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Vượt qua (một bài kiểm tra)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "show": {
+            "phonetic": "/ʃoʊ/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Thể hiện, biểu lộ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "participate": {
+            "phonetic": "/pɑːrˈtɪs.ɪ.peɪt/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Tham gia",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "outline": {
+            "phonetic": "/ˈaʊt.laɪn/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Phác thảo, nêu ra",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "repay": {
+            "phonetic": "/rɪˈpeɪ/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Hoàn trả, trả lại",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "deduct": {
+            "phonetic": "/dɪˈdʌkt/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Khấu trừ, trừ đi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "differ": {
+            "phonetic": "/ˈdɪf.ər/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Khác biệt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "find": {
+            "phonetic": "/faɪnd/",
+            "meanings": [
+                {
+                    "type": "verb",
+                    "viet": "Tìm thấy, tìm kiếm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "scheme": {
+            "phonetic": "/skiːm/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chương trình (kế hoạch, dự án)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "identity": {
+            "phonetic": "/aɪˈdentɪti/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Đặc tính, tên gọi chung",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "government": {
+            "phonetic": "/ˈɡʌvənmənt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chính phủ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "job seekers": {
+            "phonetic": "/ˈdʒɒb ˈsiːkərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Người tìm việc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "countries": {
+            "phonetic": "/ˈkʌntriz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Các quốc gia",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "timor-leste": {
+            "phonetic": "/ˈtiːmɔːr ˈlesteɪ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Đông Timor (quốc gia)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sector": {
+            "phonetic": "/ˈsektə(r)/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Ngành (khu vực)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "period": {
+            "phonetic": "/ˈpɪəriəd/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Giai đoạn, khoảng thời gian",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "facilities": {
+            "phonetic": "/fəˈsɪlətiz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Cơ sở, nhà xưởng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pork": {
+            "phonetic": "/pɔːk/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thịt heo",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "beef": {
+            "phonetic": "/biːf/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thịt bò",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "poultry": {
+            "phonetic": "/ˈpəʊltri/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thịt gia cầm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "kangaroo": {
+            "phonetic": "/ˌkæŋɡəˈruː/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thịt kangaroo",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "crocodile": {
+            "phonetic": "/ˈkrɒkədaɪl/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thịt cá sấu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "lamb products": {
+            "phonetic": "/læm ˈprɒdʌkts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sản phẩm thịt cừu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "consumption": {
+            "phonetic": "/kənˈsʌmpʃən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sự tiêu thụ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "slaughterhouse": {
+            "phonetic": "/ˈslɔːtəhaʊs/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Lò mổ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "abattoir": {
+            "phonetic": "/ˈæbətwɑː(r)/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Lò mổ (thuật ngữ chính thức)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "holding yards": {
+            "phonetic": "/ˈhəʊldɪŋ jɑːdz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Khu vực giữ (chuồng, sân nhốt)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "animals": {
+            "phonetic": "/ˈænɪməlz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Động vật",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "kill floor": {
+            "phonetic": "/kɪl flɔː(r)/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Khu vực giết mổ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "processing rooms": {
+            "phonetic": "/ˈprəʊsesɪŋ ruːmz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phòng chế biến",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "packaging": {
+            "phonetic": "/ˈpækɪdʒɪŋ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Đóng gói",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "dispatch areas": {
+            "phonetic": "/dɪˈspætʃ ˈeəriəz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Khu vực vận chuyển (xuất hàng)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "workers": {
+            "phonetic": "/ˈwɜːkərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Công nhân, người lao động",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "team": {
+            "phonetic": "/tiːm/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Đội, nhóm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "livestock slaughtering process": {
+            "phonetic": "/ˈlaɪvstɒk ˈslɔːtərɪŋ ˈprəʊses/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Quy trình giết mổ gia súc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "boning": {
+            "phonetic": "/ˈbəʊnɪŋ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Lóc xương (công việc lóc xương)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "preparation": {
+            "phonetic": "/ˌprepəˈreɪʃən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sự chuẩn bị",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sale": {
+            "phonetic": "/seɪl/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Việc bán (doanh số)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "staff": {
+            "phonetic": "/stɑːf/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nhân viên, đội ngũ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "environment": {
+            "phonetic": "/ɪnˈvaɪrənmənt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Môi trường",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "coordination": {
+            "phonetic": "/kəʊˌɔːdɪˈneɪʃən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sự phối hợp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "line": {
+            "phonetic": "/laɪn/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Dây chuyền (sản xuất)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "lifting": {
+            "phonetic": "/ˈlɪftɪŋ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Việc nâng, nhấc (vật nặng)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "periods of time": {
+            "phonetic": "/ˈpɪəriədz əv taɪm/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Khoảng thời gian",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "roles": {
+            "phonetic": "/rəʊlz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Các vai trò, vị trí",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "packers": {
+            "phonetic": "/ˈpækərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Người đóng gói",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cleaners": {
+            "phonetic": "/ˈkliːnərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Người dọn dẹp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "rubbish removalist": {
+            "phonetic": "/ˈrʌbɪʃ rɪˈmuːvəlɪst/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Người thu gom rác",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "slaughterers": {
+            "phonetic": "/ˈslɔːtərərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Người giết mổ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "boners": {
+            "phonetic": "/ˈbəʊnərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Người lóc xương",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "butchers": {
+            "phonetic": "/ˈbʊtʃərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thợ mổ, người bán thịt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "machine operators": {
+            "phonetic": "/məˈʃiːn ˈɒpəreɪtərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Người vận hành máy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "responsibilities": {
+            "phonetic": "/rɪˌspɒnsəˈbɪlətiz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Trách nhiệm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bags": {
+            "phonetic": "/bæɡz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Túi, bao",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "boxes": {
+            "phonetic": "/ˈbɒksɪz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Hộp, thùng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "garbage removalist": {
+            "phonetic": "/ˈɡɑːbɪdʒ rɪˈmuːvəlɪst/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Người thu gom rác thải",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "meat": {
+            "phonetic": "/miːt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thịt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bone products": {
+            "phonetic": "/bəʊn ˈprɒdʌkts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sản phẩm từ xương",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "floors": {
+            "phonetic": "/flɔːrz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sàn nhà",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cleaning duties": {
+            "phonetic": "/ˈkliːnɪŋ ˈdjuːtiz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nhiệm vụ dọn dẹp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "knives": {
+            "phonetic": "/naɪvz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Dao",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "carcass": {
+            "phonetic": "/ˈkɑːkəs/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thân thịt, xác súc vật",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bandsaw": {
+            "phonetic": "/ˈbændsɔː/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Máy cưa băng (cưa thịt)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "hock cutters": {
+            "phonetic": "/hɒk ˈkʌtərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Máy cắt gân (cắt khớp)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "strappers": {
+            "phonetic": "/ˈstræpərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Máy buộc đai (đóng gói)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "denuder": {
+            "phonetic": "/dɪˈnjuːdə(r)/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Máy lột (lột da)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "air saw": {
+            "phonetic": "/eə sɔː/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Cưa khí nén",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wizard knives": {
+            "phonetic": "/ˈwɪzəd naɪvz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Dao 'wizard' (dao chuyên dụng)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "safety instructions": {
+            "phonetic": "/ˈseɪfti ɪnˈstrʌkʃənz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Hướng dẫn an toàn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "injury": {
+            "phonetic": "/ˈɪndʒəri/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chấn thương",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "strength": {
+            "phonetic": "/streŋθ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sức mạnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cold room": {
+            "phonetic": "/kəʊld ruːm/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phòng lạnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "degrees": {
+            "phonetic": "/dɪˈɡriːz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Độ (nhiệt độ)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "attributes": {
+            "phonetic": "/ˈætrɪbjuːts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Các thuộc tính (đặc điểm)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "health": {
+            "phonetic": "/helθ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sức khỏe",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bending": {
+            "phonetic": "/ˈbendɪŋ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Việc cúi gập (người)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "experience": {
+            "phonetic": "/ɪkˈspɪəriəns/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Kinh nghiệm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "hygiene": {
+            "phonetic": "/ˈhaɪdʒiːn/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Vệ sinh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "food products": {
+            "phonetic": "/ˈfuːd ˈprɒdʌkts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sản phẩm thực phẩm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "vision": {
+            "phonetic": "/ˈvɪʒən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thị lực",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "drug test": {
+            "phonetic": "/ˈdrʌɡ test/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Kiểm tra ma túy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "work ethic": {
+            "phonetic": "/ˈwɜːk ˈeθɪk/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Đạo đức làm việc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "commitment": {
+            "phonetic": "/kəˈmɪtmənt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sự cam kết",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "initiative": {
+            "phonetic": "/ɪˈnɪʃətɪv/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sự chủ động",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "willingness": {
+            "phonetic": "/ˈwɪlɪŋnəs/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sự sẵn lòng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "training": {
+            "phonetic": "/ˈtreɪnɪŋ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Đào tạo",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "employer": {
+            "phonetic": "/ɪmˈplɔɪə(r)/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chủ lao động",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "attention to detail": {
+            "phonetic": "/əˈtenʃən tə ˈdiːteɪl/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sự chú ý đến chi tiết",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "quality": {
+            "phonetic": "/ˈkwɒləti/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chất lượng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "ability": {
+            "phonetic": "/əˈbɪləti/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Khả năng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "team player": {
+            "phonetic": "/tiːm ˈpleɪə(r)/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Người chơi đồng đội",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "english": {
+            "phonetic": "/ˈɪŋɡlɪʃ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tiếng Anh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "vaccination": {
+            "phonetic": "/ˌvæksɪˈneɪʃən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tiêm phòng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wearing": {
+            "phonetic": "/ˈweərɪŋ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Việc mặc (sử dụng)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "personal protective equipment (ppe)": {
+            "phonetic": "/ˈpɜːsənəl prəˈtektɪv ɪˈkwɪpmənt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thiết bị Bảo hộ Cá nhân",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "conditions": {
+            "phonetic": "/kənˈdɪʃənz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Điều kiện",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "blood": {
+            "phonetic": "/blʌd/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Máu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wages": {
+            "phonetic": "/ˈweɪdʒɪz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tiền lương",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "rights": {
+            "phonetic": "/raɪts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Quyền",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "protections": {
+            "phonetic": "/prəˈtekʃənz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sự bảo vệ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "welfare": {
+            "phonetic": "/ˈwelfeə(r)/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phúc lợi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wellbeing": {
+            "phonetic": "/ˌwelˈbiːɪŋ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sự khỏe mạnh (thể chất và tinh thần)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "legislation": {
+            "phonetic": "/ˌledʒɪsˈleɪʃən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Luật pháp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "award": {
+            "phonetic": "/əˈwɔːd/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thỏa thuận lao động (cấp độ ngành)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "agreement": {
+            "phonetic": "/əˈɡriːmənt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thỏa thuận (cấp độ doanh nghiệp)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "payments": {
+            "phonetic": "/ˈpeɪmənts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Khoản thanh toán",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "offer of employment": {
+            "phonetic": "/ˈɒfər əv ɪmˈplɔɪmənt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thư mời làm việc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "costs": {
+            "phonetic": "/kɒsts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chi phí",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "deductions": {
+            "phonetic": "/dɪˈdʌkʃənz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Khoản khấu trừ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "airfares": {
+            "phonetic": "/ˈeəfeərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tiền vé máy bay",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "visa": {
+            "phonetic": "/ˈviːzə/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thị thực",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cash advances": {
+            "phonetic": "/kæʃ ədˈvɑːnsɪz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tiền tạm ứng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pay": {
+            "phonetic": "/peɪ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Lương (tiền lương)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "weeks": {
+            "phonetic": "/wiːks/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tuần",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "expenses": {
+            "phonetic": "/ɪkˈspensɪz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chi phí",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "accommodation": {
+            "phonetic": "/əˌkɒməˈdeɪʃən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chỗ ở",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "health insurance": {
+            "phonetic": "/helθ ɪnˈʃʊərəns/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bảo hiểm y tế",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "transport": {
+            "phonetic": "/ˈtrænspɔːt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phương tiện đi lại",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "household bills": {
+            "phonetic": "/ˈhaʊshəʊld bɪlz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Hóa đơn gia đình",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "working hours": {
+            "phonetic": "/ˈwɜːkɪŋ ˈaʊərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Giờ làm việc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "minimum": {
+            "phonetic": "/ˈmɪnɪməm/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Mức tối thiểu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "average": {
+            "phonetic": "/ˈævərɪdʒ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Mức trung bình",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "shifts": {
+            "phonetic": "/ʃɪfts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Ca làm việc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "leave": {
+            "phonetic": "/liːv/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nghỉ phép",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "entitlements": {
+            "phonetic": "/ɪnˈtaɪtlmənts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Các quyền lợi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "annual leave": {
+            "phonetic": "/ˈænjuəl liːv/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nghỉ phép năm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sick leave": {
+            "phonetic": "/sɪk liːv/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nghỉ ốm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "rent": {
+            "phonetic": "/rent/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tiền thuê nhà",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "locations": {
+            "phonetic": "/ləʊˈkeɪʃənz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Địa điểm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "city": {
+            "phonetic": "/ˈsɪti/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thành phố",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "population levels": {
+            "phonetic": "/ˌpɒpjəˈleɪʃən ˈlevəlz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Mức dân số",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "community services": {
+            "phonetic": "/kəˈmjunəti ˈsɜːvɪsɪz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Dịch vụ cộng đồng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "rural centres": {
+            "phonetic": "/ˈrʊərəl ˈsentərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Trung tâm nông thôn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "weather": {
+            "phonetic": "/ˈweðə(r)/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thời tiết",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "towns": {
+            "phonetic": "/taʊnz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thị trấn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "information": {
+            "phonetic": "/ˌɪnfəˈmeɪʃən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thông tin",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "website": {
+            "phonetic": "/ˈwebsaɪt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Trang web",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "contact details": {
+            "phonetic": "/ˈkɒntækt ˈdiːteɪlz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chi tiết liên hệ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "unit": {
+            "phonetic": "/ˈjuːnɪt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Đơn vị",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "overarching": {
+            "phonetic": "/ˌəʊvərˈɑːrtʃɪŋ/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Bao quát, rộng lớn, chủ đạo",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pacific": {
+            "phonetic": "/pəˈsɪfɪk/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) Thái Bình Dương",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "australian": {
+            "phonetic": "/ɒˈstreɪliən/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) Úc, người Úc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "large-scale": {
+            "phonetic": "/ˈlɑːrdʒ skeɪl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Quy mô lớn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "beef": {
+            "phonetic": "/biːf/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) thịt bò",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "poultry": {
+            "phonetic": "/ˈpoʊltri/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) gia cầm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "kangaroo": {
+            "phonetic": "/ˌkæŋɡəˈruː/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) kangaroo",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "crocodile": {
+            "phonetic": "/ˈkrɒkədaɪl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) cá sấu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "lamb": {
+            "phonetic": "/læm/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) thịt cừu non",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "human": {
+            "phonetic": "/ˈhjuːmən/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) con người, nhân loại",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "animal": {
+            "phonetic": "/ˈænɪməl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) động vật",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "live": {
+            "phonetic": "/laɪv/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Sống, còn sống",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "refrigerated": {
+            "phonetic": "/rɪˈfrɪdʒəreɪtɪd/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Được làm lạnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "packaged": {
+            "phonetic": "/ˈpækɪdʒd/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Đã được đóng gói",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fast-paced": {
+            "phonetic": "/ˌfæst ˈpeɪst/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Nhịp độ nhanh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "team": {
+            "phonetic": "/tiːm/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) đội, nhóm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "physically demanding": {
+            "phonetic": "/ˈfɪzɪkli dɪˈmɑːndɪŋ/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Đòi hỏi thể lực",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "repetitive": {
+            "phonetic": "/rɪˈpetətɪv/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Lặp đi lặp lại",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "automated": {
+            "phonetic": "/ˈɔːtəmeɪtɪd/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Tự động hóa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "hand-eye": {
+            "phonetic": "/ˈhænd aɪ/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) tay-mắt (trong cụm \"hand-eye coordination\")",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "heavy": {
+            "phonetic": "/ˈhevi/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Nặng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "long": {
+            "phonetic": "/lɔːŋ/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Dài",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "larger": {
+            "phonetic": "/ˈlɑːrdʒər/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Lớn hơn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "low-skilled": {
+            "phonetic": "/ˌləʊ ˈskɪld/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Tay nghề thấp, ít kỹ năng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "semi-skilled": {
+            "phonetic": "/ˌsemi ˈskɪld/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Bán lành nghề, có một phần kỹ năng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "residual": {
+            "phonetic": "/rɪˈzɪdʒuəl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Còn sót lại, dư thừa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "general": {
+            "phonetic": "/ˈdʒenərəl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Chung, tổng quát",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "safe": {
+            "phonetic": "/seɪf/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "An toàn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cold": {
+            "phonetic": "/koʊld/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Lạnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fit": {
+            "phonetic": "/fɪt/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Khỏe mạnh (về thể chất), cân đối",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "healthy": {
+            "phonetic": "/ˈhelθi/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Khỏe mạnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "previous": {
+            "phonetic": "/ˈpriːviəs/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Trước, đã từng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "preferred": {
+            "phonetic": "/prɪˈfɜːrd/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Được ưu tiên, được ưa thích",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "essential": {
+            "phonetic": "/ɪˈsenʃəl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Thiết yếu, cần thiết",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "full": {
+            "phonetic": "/fʊl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Toàn bộ, hoàn chỉnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "strong": {
+            "phonetic": "/strɔːŋ/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Mạnh mẽ, vững chắc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "personal": {
+            "phonetic": "/ˈpɜːrsənəl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Cá nhân",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "compulsory": {
+            "phonetic": "/kəmˈpʌlsəri/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Bắt buộc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "protective": {
+            "phonetic": "/prəˈtektɪv/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Bảo vệ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "equal": {
+            "phonetic": "/ˈiːkwəl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Ngang bằng, bình đẳng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "in-built": {
+            "phonetic": "/ˌɪn ˈbɪlt/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Có sẵn, nội tại",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "minimum": {
+            "phonetic": "/ˈmɪnɪməm/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Tối thiểu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "detailed": {
+            "phonetic": "/ˈdiːteɪld/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Chi tiết",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "upfront": {
+            "phonetic": "/ˌʌpˈfrʌnt/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Trả trước (chi phí)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pre-employment": {
+            "phonetic": "/ˌpriː ɪmˈplɔɪmənt/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Trước khi làm việc",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cash": {
+            "phonetic": "/kæʃ/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) tiền mặt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "initial": {
+            "phonetic": "/ɪˈnɪʃəl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Ban đầu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "ongoing": {
+            "phonetic": "/ˈɑːnɡəʊɪŋ/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Đang diễn ra, liên tục",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "health": {
+            "phonetic": "/helθ/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) sức khỏe",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "household": {
+            "phonetic": "/ˈhaʊshoʊld/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) gia đình, hộ gia đình",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "remote": {
+            "phonetic": "/rɪˈmoʊt/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Xa xôi, hẻo lánh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "regional": {
+            "phonetic": "/ˈriːdʒənl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) khu vực",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "small": {
+            "phonetic": "/smɔːl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Nhỏ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "major": {
+            "phonetic": "/ˈmeɪdʒər/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Chính, lớn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "low": {
+            "phonetic": "/ləʊ/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Thấp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "basic": {
+            "phonetic": "/ˈbeɪsɪk/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Cơ bản",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "rural": {
+            "phonetic": "/ˈrʊrəl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) nông thôn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "hot": {
+            "phonetic": "/hɑːt/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Nóng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "central western": {
+            "phonetic": "/ˈsentrəl ˈwestərn/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Tây trung tâm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "coastal": {
+            "phonetic": "/ˈkoʊstl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "(Thuộc) bờ biển",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "main": {
+            "phonetic": "/meɪn/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Chính, chủ yếu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "popular": {
+            "phonetic": "/ˈpɑːpjələr/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Phổ biến, được ưa chuộng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "annual": {
+            "phonetic": "/ˈænjuəl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Hàng năm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "full-time": {
+            "phonetic": "/ˌfʊl ˈtaɪm/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Toàn thời gian",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "part-time": {
+            "phonetic": "/ˌpɑːrt ˈtaɪm/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Bán thời gian",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "casual": {
+            "phonetic": "/ˈkæʒuəl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Tạm thời, không thường xuyên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sick": {
+            "phonetic": "/sɪk/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Ốm, bệnh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "suitable": {
+            "phonetic": "/ˈsuːtəbl/",
+            "meanings": [
+                {
+                    "type": "adjective",
+                    "viet": "Thích hợp",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
         "Hard hat": {
             "phonetic": "/ˈhɑːd ˌhæt/",
             "meanings": [
@@ -811,6 +3595,1243 @@ const allTopics = {
         }
     },
     "Food": {
+        "sonoma sourdough": {
+            "phonetic": "/ˈsoʊnəmə ˈsaʊərdəʊ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì men Sonoma",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "soy linseed": {
+            "phonetic": "/sɔɪ ˈlɪnsiːd/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Đậu nành và hạt lanh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "white toast": {
+            "phonetic": "/waɪt təʊst/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì nướng trắng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "gluten-free toast": {
+            "phonetic": "/ˈɡluːtən friː təʊst/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì nướng không chứa gluten",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "butter": {
+            "phonetic": "/ˈbʌtər/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bơ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "vegemite": {
+            "phonetic": "/ˈvɛdʒɪmaɪt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bơ Vegemite (loại phết mặn của Úc)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "honey": {
+            "phonetic": "/ˈhʌni/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Mật ong",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "crunchy peanut butter": {
+            "phonetic": "/ˈkrʌntʃi ˈpiːnʌt ˈbʌtər/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bơ đậu phộng giòn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "nutella": {
+            "phonetic": "/nuːˈtɛlə/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sốt Nutella (sô cô la hạt phỉ)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "farmhouse strawberry jam": {
+            "phonetic": "/ˈfɑːrmhaʊs ˈstrɔːbəri dʒæm/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Mứt dâu tây kiểu nhà làm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "raisin toast": {
+            "phonetic": "/ˈreɪzɪn təʊst/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì nướng nho khô",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "ricotta": {
+            "phonetic": "/rɪˈkɒtə/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phô mai Ricotta",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "banana & date overnight oats": {
+            "phonetic": "/bəˈnænə ænd deɪt ˈəʊvərnaɪt əʊts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Yến mạch ngâm qua đêm chuối và chà là",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "coconut yoghurt": {
+            "phonetic": "/ˈkəʊkənʌt ˈjəʊɡərt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sữa chua dừa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "hazelnut crunch": {
+            "phonetic": "/ˈheɪzəlnʌt krʌntʃ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Hạt phỉ rang giòn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "blue mountains honey": {
+            "phonetic": "/bluː ˈmaʊntɪnz ˈhʌni/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Mật ong Blue Mountains",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "acai bowl": {
+            "phonetic": "/ˌɑːsaɪ ˈbəʊl/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tô Acai (sinh tố đặc từ quả Acai)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "strawberries": {
+            "phonetic": "/ˈstrɔːbəriz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Dâu tây",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "maple crunch granola": {
+            "phonetic": "/ˈmeɪpəl krʌntʃ ɡrəˈnəʊlə/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Ngũ cốc granola giòn vị phong",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "toasted banana bread": {
+            "phonetic": "/ˈtəʊstɪd bəˈnænə brɛd/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì chuối nướng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "leg ham & gruyere toasted croissant": {
+            "phonetic": "/lɛɡ hæm ænd ˈɡruːjɛər ˈtəʊstɪd ˈkrwæsɒn/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh sừng bò nướng phô mai Gruyere và thịt nguội",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "leg ham & gruyere sandwich": {
+            "phonetic": "/lɛɡ hæm ænd ˈɡruːjɛər ˈsænwɪdʒ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh sandwich phô mai Gruyere và thịt nguội",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "daily baked goods": {
+            "phonetic": "/ˈdeɪli beɪkt ɡʊdz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Các món bánh nướng hàng ngày",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "poached, or fried egg": {
+            "phonetic": "/pəʊtʃt ɔːr fraɪd ɛɡ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Trứng chần hoặc trứng chiên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "potato hash brown": {
+            "phonetic": "/pəˈteɪtəʊ hæʃ braʊn/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh khoai tây chiên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "wilted spinach": {
+            "phonetic": "/ˈwɪltɪd ˈspɪnɪtʃ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Rau bina xào héo",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "grilled haloumi": {
+            "phonetic": "/ɡrɪld həˈluːmi/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phô mai Haloumi nướng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "half an avocado": {
+            "phonetic": "/hɑːf æn ˌævəˈkɑːdəʊ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nửa quả bơ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "three pork chipolata sausages": {
+            "phonetic": "/θriː pɔːrk ˌtʃɪpəˈlɑːtə ˈsɒsɪdʒɪz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Ba xúc xích chipolata thịt heo",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "garlic & thyme roasted mushrooms": {
+            "phonetic": "/ˈɡɑːrlɪk ænd taɪm ˈrəʊstɪd ˈmʌʃrʊmz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nấm nướng tỏi và cỏ xạ hương",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "house made baked beans": {
+            "phonetic": "/haʊs meɪd beɪkt biːnz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Đậu hầm sốt cà chua tự làm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "two bacon rashers": {
+            "phonetic": "/tuː ˈbeɪkən ˈræʃərz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Hai lát thịt xông khói",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "ham off the bone": {
+            "phonetic": "/hæm ɒf ðə bəʊn/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thịt nguội cắt lát (từ đùi heo)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cured salmon": {
+            "phonetic": "/kjʊrd ˈsæmən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Cá hồi ướp (ngâm muối)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "crispy skin salmon fillet": {
+            "phonetic": "/ˈkrɪspi skɪn ˈsæmən ˈfɪlɪt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phi lê cá hồi da giòn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "one poached or fried egg on toast": {
+            "phonetic": "/wʌn pəʊtʃt ɔːr fraɪd ɛɡ ɒn təʊst/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Một trứng chần hoặc chiên trên bánh mì nướng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "bacon & egg on toast": {
+            "phonetic": "/ˈbeɪkən ænd ɛɡ ɒn təʊst/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Trứng và thịt xông khói trên bánh mì nướng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "waffle with vanilla ice cream, strawberries & maple syrup": {
+            "phonetic": "/ˈwɒfəl wɪð vəˈnɪlə aɪs kriːm, ˈstrɔːbəriz ænd ˈmeɪpəl ˈsɪrəp/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh waffle với kem vani, dâu tây và si-rô phong",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "free range eggs": {
+            "phonetic": "/friː reɪndʒ ɛɡz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Trứng gà thả vườn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "scrambled": {
+            "phonetic": "/ˈskræmbəld/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Trứng khuấy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "smashed avocado": {
+            "phonetic": "/smæʃt ˌævəˈkɑːdəʊ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bơ nghiền",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "vine tomatoes": {
+            "phonetic": "/vaɪn təˈmɑːtəʊz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Cà chua còn cuống",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "meredith goat cheese": {
+            "phonetic": "/ˈmɛrədɪθ ɡəʊt tʃiːz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phô mai dê Meredith",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "eggs benedict": {
+            "phonetic": "/ɛɡz ˈbɛnədɪkt/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Trứng Benedict",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "roasted mushroom": {
+            "phonetic": "/ˈrəʊstɪd ˈmʌʃrʊm/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nấm nướng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sweet corn fritter": {
+            "phonetic": "/swiːt kɔːrn ˈfrɪtər/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh ngô chiên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pickles": {
+            "phonetic": "/ˈpɪkəlz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Dưa muối, đồ ngâm chua",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "big breaky": {
+            "phonetic": "/bɪɡ ˈbreɪki/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bữa sáng lớn (đầy đủ)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "b&e roll": {
+            "phonetic": "/biː ænd iː rəʊl/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì cuộn trứng và thịt xông khói",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "tomato relish": {
+            "phonetic": "/təˈmɑːtəʊ ˈrɛlɪʃ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sốt cà chua ăn kèm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "mayo": {
+            "phonetic": "/ˈmeɪəʊ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xốt mayonnaise",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "toasted milk bun": {
+            "phonetic": "/ˈtəʊstɪd mɪlk bʌn/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì sữa tròn nướng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "brioche french toast": {
+            "phonetic": "/ˈbriːɒʃ frɛntʃ təʊst/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì nướng kiểu Pháp Brioche",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "caramel ice cream": {
+            "phonetic": "/ˈkærəməl aɪs kriːm/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Kem caramel",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fresh berries": {
+            "phonetic": "/frɛʃ ˈbɛriz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Các loại quả mọng tươi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "biscoff sauce": {
+            "phonetic": "/ˈbɪskɒf sɔːs/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sốt Biscoff (bánh quy caramen)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "farmhouse omelettes": {
+            "phonetic": "/ˈfɑːrmhaʊs ˈɒmləts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Trứng ốp lết kiểu nhà làm",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "blistered tomato, fetta & spinach": {
+            "phonetic": "/ˈblɪstərd təˈmɑːtəʊ, ˈfɛtə ænd ˈspɪnɪtʃ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Cà chua nướng phồng, phô mai Feta và rau bina",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "three cheese arancini with chilli aioli (3)": {
+            "phonetic": "/θriː tʃiːz ˌɑːrənˈtʃiːni wɪð ˈtʃɪli aɪˈəʊli/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Ba viên cơm chiên Arancini ba loại phô mai với xốt aioli ớt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "salt & pepper prawns (6)": {
+            "phonetic": "/sɔːlt ænd ˈpɛpər prɔːnz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tôm rang muối tiêu (6 con)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "charred lemon": {
+            "phonetic": "/tʃɑːrd ˈlɛmən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Chanh nướng cháy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "black garlic aioli": {
+            "phonetic": "/blæk ˈɡɑːrlɪk aɪˈəʊli/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xốt aioli tỏi đen",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "baked baby cauliflower": {
+            "phonetic": "/beɪkt ˈbeɪbi ˈkɒlɪflaʊər/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Súp lơ nhỏ nướng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "red pepper sauce & almonds": {
+            "phonetic": "/rɛd ˈpɛpər sɔːs ænd ˈɑːməndz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xốt ớt chuông đỏ và hạnh nhân",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "lemon pepper squid": {
+            "phonetic": "/ˈlɛmən ˈpɛpər skwɪd/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Mực xào tiêu chanh",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "chilli mayo": {
+            "phonetic": "/ˈtʃɪli ˈmeɪəʊ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xốt mayonnaise ớt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "garlic bread": {
+            "phonetic": "/ˈɡɑːrlɪk brɛd/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì bơ tỏi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "3 cheese mix": {
+            "phonetic": "/θriː tʃiːz mɪks/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Hỗn hợp 3 loại phô mai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "chips": {
+            "phonetic": "/tʃɪps/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Khoai tây chiên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "gravy": {
+            "phonetic": "/ˈɡreɪvi/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nước sốt thịt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "mayonnaise": {
+            "phonetic": "/ˌmeɪəˈneɪz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xốt Mayonnaise",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pepper sauce": {
+            "phonetic": "/ˈpɛpər sɔːs/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xốt tiêu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "creamy garlic prawns (3)": {
+            "phonetic": "/ˈkriːmi ˈɡɑːrlɪk prɔːnz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tôm sốt kem tỏi (3 con)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "chicken nuggets": {
+            "phonetic": "/ˈtʃɪkɪn ˈnʌɡɪts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Gà viên chiên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "crispy chips": {
+            "phonetic": "/ˈkrɪspi tʃɪps/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Khoai tây chiên giòn",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "tomato sauce": {
+            "phonetic": "/təˈmɑːtəʊ sɔːs/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xốt cà chua",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cheeseburger": {
+            "phonetic": "/ˈtʃiːzbɜːrɡər/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh burger phô mai",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "fish & chips": {
+            "phonetic": "/fɪʃ ænd tʃɪps/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Cá và khoai tây chiên",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "kids juice": {
+            "phonetic": "/kɪdz dʒuːs/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Nước ép trẻ em",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "kids milkshake": {
+            "phonetic": "/kɪdz ˈmɪlkʃeɪk/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Sữa lắc trẻ em",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "harissa spiced pumpkin, crispy brussel sprouts, quinoa tabouli, radish, toasted almonds, pomegranate & tahini dressing": {
+            "phonetic": "/hæˈriːsə spaɪst ˈpʌmpkɪn, ˈkrɪspi ˌbrʌsəl spraʊts, ˈkiːnwɑː təˈbuːli, ˈrædɪʃ, ˈtəʊstɪd ˈɑːməndz, ˈpɒmɪɡrænɪt ænd təˈhiːni ˈdrɛsɪŋ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bí đỏ tẩm gia vị Harissa, cải Brussels chiên giòn, xà lách quinoa tabouli, củ cải, hạnh nhân nướng, lựu và xốt mè tahini",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "nourishing green bowl": {
+            "phonetic": "/ˈnʌrɪʃɪŋ ɡriːn bəʊl/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Tô rau xanh dinh dưỡng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "sauteed kale, sesame brown rice, cabbage, snow peas & edamame": {
+            "phonetic": "/sɔːˈteɪd keɪl, ˈsɛsəmi braʊn raɪs, ˈkæbɪdʒ, snəʊ piːz ænd ˌɛdəˈmɑːmi/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Cải xoăn xào, cơm gạo lứt mè, bắp cải, đậu Hà Lan tuyết và đậu nành Nhật Edamame",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "lamb backstrap": {
+            "phonetic": "/læm ˈbækstræp/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thăn lưng cừu",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "roasted chicken supreme": {
+            "phonetic": "/ˈrəʊstɪd ˈtʃɪkɪn suːˈpriːm/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phần thịt ức gà thượng hạng nướng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "5 grilled prawns": {
+            "phonetic": "/faɪv ɡrɪld prɔːnz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "5 con tôm nướng",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "haloumi": {
+            "phonetic": "/həˈluːmi/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phô mai Haloumi",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "southern fried chicken burger": {
+            "phonetic": "/ˈsʌðərn fraɪd ˈtʃɪkɪn ˈbɜːrɡər/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh burger gà rán kiểu miền Nam",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "lettuce": {
+            "phonetic": "/ˈlɛtɪs/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xà lách",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "cheddar cheese": {
+            "phonetic": "/ˈtʃɛdər tʃiːz/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phô mai Cheddar",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "chipotle mayo": {
+            "phonetic": "/tʃɪˈpəʊtli ˈmeɪəʊ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xốt mayonnaise Chipotle (ớt khô)",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "gluten free bun": {
+            "phonetic": "/ˈɡluːtən friː bʌn/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh mì tròn không chứa gluten",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "lightly battered flathead fillets": {
+            "phonetic": "/ˈlaɪtli ˈbætərd ˈflæthɛd ˈfɪlɪts/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Phi lê cá flathead tẩm bột nhẹ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "salad": {
+            "phonetic": "/ˈsæləd/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Salad",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "tartare": {
+            "phonetic": "/ˈtɑːrtɑːr/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Xốt tartare",
+                    "definition": "",
+
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "black angus beef burger": {
+            "phonetic": "/blæk ˈæŋɡəs biːf ˈbɜːrɡər/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bánh burger bò Black Angus",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "caramelised onion": {
+            "phonetic": "/ˈkærəməlaɪzd ˈʌnjən/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Hành tây caramen hóa",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "tomato": {
+            "phonetic": "/təˈmɑːtəʊ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Cà chua",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "250g little joe's sirloin mb4+ msa pasture fed": {
+            "phonetic": "/tuː ˈhʌndrəd ænd ˈfɪfti ɡræmz ˈlɪtəl dʒəʊz ˈsɜːrlɔɪn/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Thăn ngoại Little Joe's 250g MB4+ MSA bò ăn cỏ",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "herb & parmesan crumbed chicken schnitzel": {
+            "phonetic": "/ɜːrb ænd ˈpɑːrmɪzæn krʌmd ˈtʃɪkɪn ˈʃnɪtsəl/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Món gà Schnitzel tẩm vụn bánh mì thảo mộc và phô mai Parmesan",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "chilli crab spaghetti": {
+            "phonetic": "/ˈtʃɪli kræb spəˈɡɛti/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Mì Ý cua ớt",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "burnt butter": {
+            "phonetic": "/bɜːrnt ˈbʌtər/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Bơ cháy",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
+        "pangratatto": {
+            "phonetic": "/ˌpænɡrəˈtɑːtəʊ/",
+            "meanings": [
+                {
+                    "type": "noun",
+                    "viet": "Vụn bánh mì chiên giòn kiểu Ý",
+                    "definition": "",
+                    "synonyms": [],
+                    "antonyms": []
+                }
+            ]
+        },
         "café": {
             "phonetic": "/'kæfeɪ/",
             "meanings": [
