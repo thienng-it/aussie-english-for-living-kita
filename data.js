@@ -3298,6 +3298,330 @@ const allTopics = {
         }
     },
     "Bank": {
+        "Close Account Request": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Yêu cầu Đóng Tài khoản",
+                "definition": "The title of the form used to formally ask a bank to close an account.",
+                "synonyms": ["Account Cancellation Form", "Closure Form", "Termination Request"],
+                "antonyms": ["Account Opening Request", "New Account Application"]
+            }
+            ]
+        },
+        "Account Details": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Chi tiết Tài khoản",
+                "definition": "Section for filling in information about the account to be closed.",
+                "synonyms": ["Account Information", "Customer Details", "Account Particulars"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Account Name": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Tên Tài khoản",
+                "definition": "The registered name of the person(s) or entity on the account.",
+                "synonyms": ["Account Holder Name", "Name on Account", "Registered Name"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Account Type": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Loại Tài khoản",
+                "definition": "The category of the bank account (e.g., Entity Single, Joint).",
+                "synonyms": ["Account Category", "Type of Account"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Entity Single": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Cá nhân/Pháp nhân Đơn",
+                "definition": "An account held by a single person or a single legal entity.",
+                "synonyms": ["Individual Account", "Sole Ownership Account", "Single Holder Account"],
+                "antonyms": ["Joint Account", "Multiple Holder Account"]
+            }
+            ]
+        },
+        "Joint": {
+            "phonetic": "/dʒɔɪnt/",
+            "meanings": [
+            {
+                "type": "adjective/noun",
+                "viet": "Đồng sở hữu",
+                "definition": "Refers to an account held by two or more people.",
+                "synonyms": ["Shared", "Combined", "Co-owned", "Joint Account"],
+                "antonyms": ["Single", "Individual", "Sole"]
+            }
+            ]
+        },
+        "Customer 1 & 2": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Khách hàng 1 & 2",
+                "definition": "Used for identifying the individuals associated with the account, especially joint accounts.",
+                "synonyms": ["Primary Customer & Secondary Customer", "Account Holder 1 & 2", "Co-applicants"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Surname": {
+            "phonetic": "/ˈsɜːrneɪm/",
+            "meanings": [
+            {
+                "type": "noun",
+                "viet": "Họ",
+                "definition": "The family name or last name.",
+                "synonyms": ["Family Name", "Last Name"],
+                "antonyms": ["First Name", "Given Name", "Forename"]
+            }
+            ]
+        },
+        "Closure of HSBC Accounts": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Đóng Tài khoản HSBC",
+                "definition": "The main section for selecting which specific HSBC accounts to close.",
+                "synonyms": ["HSBC Account Cancellation", "Terminating HSBC Accounts"],
+                "antonyms": ["Opening of HSBC Accounts"]
+            }
+            ]
+        },
+        "Day To Day": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Tài khoản Thông thường",
+                "definition": "A common type of everyday transaction account. Also known as a checking or current account.",
+                "synonyms": ["Current Account", "Checking Account", "Transaction Account"],
+                "antonyms": ["Savings Account", "Term Deposit"]
+            }
+            ]
+        },
+        "HSBC Everyday Savings": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "proper noun phrase",
+                "viet": "Tài khoản Tiết kiệm Hàng ngày HSBC",
+                "definition": "A specific type of savings account offered by HSBC.",
+                "synonyms": ["HSBC Savings Account"],
+                "antonyms": ["HSBC Current Account"]
+            }
+            ]
+        },
+        "Term Deposit": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Tiền gửi Có kỳ hạn",
+                "definition": "An investment where money is locked in for a fixed period at a fixed interest rate.",
+                "synonyms": ["Fixed Deposit (FD)", "Certificate of Deposit (CD)", "Time Deposit"],
+                "antonyms": ["At-call Account", "Demand Deposit", "Savings Account"]
+            }
+            ]
+        },
+        "Offset Savings": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Tiết kiệm Bù trừ",
+                "definition": "A savings account linked to a mortgage (home loan) to help reduce the interest paid on the loan.",
+                "synonyms": ["Offset Account", "Mortgage Offset Account"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Everyday Global": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "proper noun phrase",
+                "viet": "Tài khoản Đa tiền tệ Hàng ngày",
+                "definition": "A specific account type, likely a multi-currency account for daily transactions.",
+                "synonyms": ["Multi-currency Account", "Global Account", "Foreign Currency Account"],
+                "antonyms": ["Single-currency Account", "Domestic Account"]
+            }
+            ]
+        },
+        "Control Currency Account": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Tài khoản Tiền tệ Chính",
+                "definition": "The primary currency account used as the base in a multi-currency setup.",
+                "synonyms": ["Primary Currency Account", "Base Currency Account"],
+                "antonyms": ["Secondary Currency Account"]
+            }
+            ]
+        },
+        "BSB": {
+            "phonetic": "/biː es biː/",
+            "meanings": [
+            {
+                "type": "acronym",
+                "viet": "Mã BSB",
+                "definition": "Stands for 'Bank, State, Branch' code. A 6-digit number used to identify a specific bank branch in Australia.",
+                "synonyms": ["Bank Code", "Branch Code"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Account Number": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Số Tài khoản",
+                "definition": "The unique identifier (number) for a specific bank account.",
+                "synonyms": ["Account ID", "Bank Account Number (BAN)"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Reason for account closure": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Lý do đóng tài khoản",
+                "definition": "The section on a form to specify why the customer is closing the account.",
+                "synonyms": ["Reason for closing", "Closure Justification", "Cancellation Reason"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Interest rate": {
+            "phonetic": "/ˈɪntrəst reɪt/",
+            "meanings": [
+            {
+                "type": "noun",
+                "viet": "Lãi suất",
+                "definition": "The percentage of a sum of money charged for its use (on a loan) or paid for its deposit (in savings). Also listed as a potential reason for closing an account.",
+                "synonyms": ["Rate of Return", "APR (Annual Percentage Rate)", "Yield"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Product features": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Tính năng sản phẩm",
+                "definition": "The specific characteristics or benefits of a financial product. Also listed as a potential reason for closing an account.",
+                "synonyms": ["Product Attributes", "Service Benefits", "Account Perks"],
+                "antonyms": ["Product Limitations", "Product Drawbacks"]
+            }
+            ]
+        },
+        "Destroy all debit cards and cheque books": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "imperative phrase",
+                "viet": "Hủy tất cả thẻ ghi nợ và sổ séc",
+                "definition": "An instruction for the customer to securely dispose of all cards and cheque books related to the account being closed.",
+                "synonyms": ["Securely dispose of cards", "Shred all cards and cheques"],
+                "antonyms": ["Activate cards", "Order cheque book"]
+            }
+            ]
+        },
+        "Account Withdrawal Details": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Chi tiết Rút tiền Tài khoản",
+                "definition": "The section specifying how the remaining balance (money) in the account will be handled or transferred out.",
+                "synonyms": ["Fund Disposal Instructions", "Balance Transfer Details", "Payout Information"],
+                "antonyms": ["Account Deposit Details"]
+            }
+            ]
+        },
+        "Credit HSBC Bank account": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "verb phrase",
+                "viet": "Chuyển vào tài khoản HSBC",
+                "definition": "An option to transfer the remaining funds *into* another HSBC bank account.",
+                "synonyms": ["Transfer to HSBC account", "Deposit into HSBC account"],
+                "antonyms": ["Debit HSBC Bank account", "Withdraw from HSBC Bank account"]
+            }
+            ]
+        },
+        "Credit to other Local Bank account (AUD)": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "verb phrase",
+                "viet": "Chuyển vào tài khoản Ngân hàng nội địa khác (AUD)",
+                "definition": "An option to transfer the remaining funds *into* an account at a different bank within the same country (in Australian Dollars).",
+                "synonyms": ["Transfer to local bank", "Domestic bank transfer (AUD)"],
+                "antonyms": ["International transfer", "Foreign currency transfer"]
+            }
+            ]
+        },
+        "Transfer of Funds form": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Biểu mẫu Chuyển tiền",
+                "definition": "A separate form required for more complex transfers, such as to foreign currency accounts or overseas banks.",
+                "synonyms": ["Fund Transfer Application", "Wire Transfer Form", "Remittance Form"],
+                "antonyms": []
+            }
+            ]
+        },
+        "Fees and charges apply": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "phrase",
+                "viet": "Áp dụng phí và lệ phí",
+                "definition": "A standard banking disclaimer warning that costs may be incurred for the service.",
+                "synonyms": ["Subject to fees", "Additional costs may apply", "Charges applicable"],
+                "antonyms": ["Fee-free", "No charges apply", "Free of charge"]
+            }
+            ]
+        },
+        "Customer Signature(s)": {
+            "phonetic": "",
+            "meanings": [
+            {
+                "type": "noun phrase",
+                "viet": "Chữ ký của Khách hàng",
+                "definition": "The section on the form where the account holder(s) must sign and date the request to authorize it.",
+                "synonyms": ["Account Holder Signature(s)", "Applicant Signature(s)", "Authorization"],
+                "antonyms": []
+            }
+            ]
+        },
         "Bank": {
             "phonetic": "/bæŋk/",
             "meanings": [
